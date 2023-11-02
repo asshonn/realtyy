@@ -1,0 +1,167 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.t1 {
+    display: flex;
+    margin-left: 150px;
+    font-size: 23px;
+}
+
+.text {
+    display: flex;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.text a {
+    font-weight: 700;
+    margin-left: 35px;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+.text a:hover{
+    color: red;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 100%;
+    width: 450px;
+    height: 450px;
+}
+.img-profile {
+    width: 200px; /* Размер изображения */
+    height: 200px;
+    border-radius: 50%; /* Делаем изображение круглым */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Добавляем тень */
+    transition: transform 0.3s ease-in-out; /* Добавляем анимацию */
+}
+
+.img-profile:hover {
+    transform: scale(1.1); /* Увеличиваем размер изображения при наведении */
+}
+.head1{
+    max-width: 40%;
+    margin-right: 70px;
+}
+.head2{
+    width: 450px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+hr{
+    width: 100px;
+    text-align: left;
+    transform: translate(-245%,0);
+    height: 2px;
+    color: red;
+    background: red;
+}
+.head1 span{
+    color: red;
+}
+.bas{
+    display: flex;
+
+}
+.bas span{
+    color: blue;
+}
+.bas1{
+    margin-right: 150px;
+}
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin-left: 35px;
+}
+.head3{
+    display: flex;
+    flex-direction: column;
+}
+.head3 p{
+    margin: 5px;
+}
+.text4{
+    display: flex;
+    justify-content: space-between;
+}
+.progress-bar{
+  width: 500px;
+  height: 5px;
+  background: #aaa;
+  margin: 10px 0; 
+}
+
+.progress-bar .progress{
+  background: #f00;
+  width:100%;
+  height: 100%;
+  animation: width100 2s backwards;
+}
+
+@keyframes width100{
+  0% {
+    width: 0
+  }
+  100%{
+    width: 100%;
+  }
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button1 {
+    font-family: 'Poppins', sans-serif; /* Используем шрифт Poppins для первой кнопки */
+}
+
+.button2 {
+    font-family: 'Poppins', sans-serif; /* Используем шрифт Poppins для второй кнопки */
+}
+
+.button3 {
+    font-family: 'Poppins', sans-serif; /* Используем шрифт Poppins для третьей кнопки */
+}
+
+.button4 {
+    font-family: 'Poppins', sans-serif; /* Используем шрифт Poppins для четвертой кнопки */
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Плавные анимации для кнопки */
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05); /* Увеличиваем размер при наведении */
+}
+
+.footer{
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}

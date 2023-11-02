@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.head2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.t1 {
+    display: flex;
+    margin-left: 150px;
+    font-size: 23px;
+}
+
+.text1 {
+    display: flex;
+    margin-right: 50px;
+}
+.text1 a {
+    cursor: pointer;
+    margin-left: 35px;
+    font-weight: 700;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+.text1 a:hover{
+    color: red;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+hr{
+    width: 100px;
+    text-align: left;
+    height: 2px;
+    color: red;
+    background: red;
+}
+.head{
+    width: 50%;
+    text-align: center;
+}
+.head span{
+    color: red;
+}
+.head p{
+    margin-bottom: 100px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.contact h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #2980b9;
+} 
+button {
+    padding: 15px 30px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Плавные анимации для кнопки */
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05); /* Увеличиваем размер при наведении */
+}
+.hidden {
+    display: none;
+}
+
+#successMessage {
+    background-color: #27ae60;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#successMessage p {
+    margin: 0;
+}
+.bas {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+img{
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.bas1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    margin-bottom: 250px;
+}
+.img1 {
+    transform: translate(150%,0);
+}
+.img2{
+    transform: translate(450%,0);
+}
+.img3{
+    transform: translate(140%,200%);
+}
+.img4{
+    transform: translate(240%,400%);
+}
+.img5{
+    transform: translate(-250%,400%);
+}
+.footer{
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    color: white;
+}
